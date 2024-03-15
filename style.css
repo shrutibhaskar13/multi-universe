@@ -1,0 +1,53 @@
+body{
+    background: url("./background.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: black;
+    background-color: lavender;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    background-color: plum;
+    width: 1200px;
+    height:80px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+h3{
+    color: black;
+    font-size: xx-large;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+
+img{
+    height: 115px;
+    width: 115px;
+    border-radius: 70px 70px 70px 70px;
+    padding: 10px;
+    border: 3px solid black;
+
+}
+img:hover{
+    opacity:0.5;
+}
